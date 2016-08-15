@@ -28,6 +28,15 @@ html
         .input-group
             label(for="mce-EMAIL") Email Address
             input(type="email", value="", name="EMAIL", class="", id="mce-EMAIL", placeholder="bruce@wayneenterprises.com")
+        .input-group(style="display:none;")
+          input(type="radio", value="Rebel Labs Overall", name="PROJECT", id="mce-PROJECT-0") 
+          span Rebel Labs Overall
+          input(type="radio", value="UKGovHack", name="PROJECT", id="mce-PROJECT-1", checked) 
+          span UKGovHack
+          input(type="radio", value="Kabooom", name="PROJECT", id="mce-PROJECT-2") 
+          span Kabooom
+          input(type="radio", value="Accountability Hack", name="PROJECT", id="mce-PROJECT-3") 
+          span Accountability Hack
         div(style='position: absolute; left: -5000px;', aria-hidden='true'): input(type='text', name='b_e6f5b0f5a25d37d333f71a382_f92e514316', tabindex='-1', value='')
         .input-group.button
           input#mc-embedded-subscribe(type='submit', value='Subscribe', name='subscribe')
